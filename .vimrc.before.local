@@ -1,0 +1,19 @@
+" In your .vimrc.before.local file
+" list only the plugin groups you will use
+let g:spf13_bundle_groups=[
+            \'general', 
+            \'writing', 
+            \'neocomplete', 
+            \'programming', 
+            \'ruby', 
+            \'go', 
+            \'misc',
+            \'rust',
+            \]
+
+" The default leader is '\', but many people prefer ',' as it's in a standard
+" location. To override this behavior and set it back to '\' (or any other
+" character) add the following to your .vimrc.before.local file:
+"   let g:spf13_leader='\'
+let g:spf13_leader=';'
+let g:spf13_localleader=';'
